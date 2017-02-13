@@ -1,6 +1,8 @@
 # node-api
 node.js api core structure
 
-npm install --save-dev eslint
+npm i -g eslint
 
-.\node_modules\.bin\eslint --init
+eslint --init
+
+npm install webpack babel-core babel-preset-es2015 --save
